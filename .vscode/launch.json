@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: FastAPI",
+            "type": "python",
+            "request": "launch",
+            // "preLaunchTask": "start postgres",
+            "module": "uvicorn",
+            "args": [
+
+                "main:app",
+                "--reload"
+            ],
+            "cwd": "${workspaceFolder}/backend",
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}

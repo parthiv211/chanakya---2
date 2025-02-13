@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Status Change Notification</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <div
+      style="
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+      "
+    >
+      <div
+        style="
+          background-color: #ffffff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        "
+      >
+        <p>Dear Team,</p>
+
+        <p>
+          We would like to inform you of an important update regarding the
+          status of a product in our system. Below are the details:
+        </p>
+
+        <table
+          style="width: 100%; border-collapse: collapse; margin-bottom: 20px"
+        >
+          <tr>
+            <th
+              style="
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                background-color: #f4f4f4;
+              "
+            >
+              Style ID
+            </th>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd">
+              {style_id}
+            </td>
+          </tr>
+          <!-- <tr>
+            <th
+              style="
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                background-color: #f4f4f4;
+              "
+            >
+              Product ID
+            </th>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd">
+              {product_id}
+            </td>
+          </tr> -->
+          <tr>
+            <th
+              style="
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                background-color: #f4f4f4;
+              "
+            >
+              Old Status
+            </th>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd">
+              {old_status}
+            </td>
+          </tr>
+          <tr>
+            <th
+              style="
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                background-color: #f4f4f4;
+              "
+            >
+              New Status
+            </th>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd">
+              {new_status}
+            </td>
+          </tr>
+          <tr>
+            <th
+              style="
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                background-color: #f4f4f4;
+              "
+            >
+              Updated By
+            </th>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd">
+              {edited_by_email}
+            </td>
+          </tr>
+          <tr>
+            <th
+              style="
+                text-align: left;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+                background-color: #f4f4f4;
+              "
+            >
+              Date and Time of Status Update
+            </th>
+            <td style="padding: 10px; border-bottom: 1px solid #ddd">
+              {timestamp}
+            </td>
+          </tr>
+        </table>
+
+        <p>
+          To ensure that all records are up-to-date and accurate, please review
+          the changes and take necessary actions if required.
+        </p>
+
+        <!-- Button with dynamic URL -->
+        <p>
+          <a
+            href="https://chanakya.tigctech.in/products/{product_id}"
+            style="
+              display: inline-block;
+              padding: 10px 20px;
+              font-size: 16px;
+              color: #ffffff;
+              background-color: #007bff;
+              text-decoration: none;
+              border-radius: 4px;
+              text-align: center;
+              margin-top: 20px;
+            "
+            >View Product Details</a
+          >
+        </p>
+
+        <p>
+          If you have any questions or need further assistance, do not hesitate
+          to reach out to us at
+          <a
+            href="mailto:hello@itmtb.com"
+            style="color: #007bff; text-decoration: none"
+            >hello@itmtb.com</a
+          >.
+        </p>
+
+        <p>Thank you for your attention to this matter.</p>
+
+        <p>Best regards,<br />itmtb Technologies Private Limited</p>
+      </div>
+
+      <div
+        style="
+          text-align: center;
+          margin-top: 20px;
+          font-size: 0.9em;
+          color: #555;
+        "
+      >
+        <p>
+          Contact us: +91-7666859406 |
+          <a
+            href="mailto:hello@itmtb.com"
+            style="color: #007bff; text-decoration: none"
+            >hello@itmtb.com</a
+          >
+        </p>
+        <p>
+          <a
+            href="http://www.itmtb.com"
+            style="color: #007bff; text-decoration: none"
+            >Visit our website</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

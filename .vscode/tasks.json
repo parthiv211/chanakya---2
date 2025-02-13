@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "start postgres",
+            "command": "sudo service postgresql start", // Could be any other shell command
+            "type": "shell"
+        },
+    ]
+}

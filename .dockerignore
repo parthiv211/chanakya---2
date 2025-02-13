@@ -1,0 +1,12 @@
+.DS_Store
+.pytest_cache/
+**/__pycache__
+**/.git
+**/.gitignore
+**/.vscode
+**/node_modules
+**/.next
+data/
+logs/
+package-lock.json
+yarn.lock
