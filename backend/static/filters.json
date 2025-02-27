@@ -130,6 +130,7 @@
       "Crew Neck Sweatshirt",
       "Crew Neck Sweatshirt And Shorts",
       "Crew Neck T-Shirt",
+      "Crew Neck T-Shirt And Shorts",
       "Crew Neck Tank Top",
       "Crewneck Sweater",
       "Crewneck Sweatshirt",
@@ -668,6 +669,7 @@
       "Relaxed And Straight",
       "Relaxed And Tapered",
       "Relaxed And Wide",
+      "Relaxed Cargo",
       "Relaxed Cropped",
       "Relaxed Straight",
       "Relaxed Tapered",
@@ -1835,6 +1837,7 @@
       "Zipper Open"
     ],
     "hemline": [
+      "Adjustable",
       "Asymmetric",
       "Cuffed",
       "Curved",
@@ -2082,6 +2085,7 @@
       "Linen Lyocell",
       "Linen Viscose",
       "Linen Viscose Flex",
+      "Nylon Elastane",
       "Poly Modal Blend",
       "Polyester Blend",
       "Polyester Cotton",
